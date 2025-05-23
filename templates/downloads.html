@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Outputs Folder</title>
+</head>
+<body>
+  <h2>Converted Word Files:</h2>
+  <ul>
+    {% for file in files %}
+      <li><a href="{{ url_for('uploaded_file', filename=file) }}">{{ file }}</a></li>
+    {% endfor %}
+  </ul>
+  <a href="{{ url_for('index') }}">New File Upload</a>
+</body>
+</html>
+
