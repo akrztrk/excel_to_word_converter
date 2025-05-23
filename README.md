@@ -17,17 +17,4 @@ This project is a simple web application that allows users to upload Excel files
 - python-docx (for writing Word documents)
 - HTML with Jinja2 templating
 
-## 📂 Project Structure
 
-excel_to_word_web/
-├── app.py # Main Flask application
-├── converter/ # Conversion modules
-│ ├── excel_reader.py
-│ ├── word_writer.py
-│ └── controller.py
-├── templates/ # HTML templates
-│ ├── index.html
-│ └── downloads.html
-├── uploads/ # Uploaded Excel files
-├── outputs/ # Generated Word documents
-└── README.md
